@@ -17,7 +17,7 @@ print(m)
 le = len("hello")  # 取字串長度
 print(le)
 
-
+# type() 取得參數的型態
 print(type(1))  # 取型態
 print(type("hello"))  # 取型態
 print(type(1.0))  # 取型態
