@@ -8,7 +8,7 @@ import turtle as t
 
 
 t.penup()
-t.speed(0)  #
+t.speed(0)
 for i in range(12):
     t.forward(100)
     t.stamp()
