@@ -1,4 +1,4 @@
-weather = ["晴天", "多雲", "雨天", "晴天", "多雲", "雷震天", "晴天"]
+weather = ["晴天", "多雲", "雨天", "晴天", "多雲", "雷震雨", "晴天"]
 while True:
     for i in range(len(weather)):
         print(f"{i + 1}. {weather[i]}")
@@ -15,3 +15,9 @@ while True:
         print(f"原本的天氣是{weather[select - 1]}")
         weather[select - 1] = input("請輸入新的天氣: ")
         print(f"修定後的天氣是{weather[select - 1]}")
+        more = input("是否更多天氣？(y/n): ")
+        if more == "y":
+            continue
+        else:
+            break
+print("天氣修改完畢")
