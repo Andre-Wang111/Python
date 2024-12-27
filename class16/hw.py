@@ -26,8 +26,8 @@ Please turn each feature of the score system into separate functions, just like 
 - Keep the same way of using the program
 """
 
-print("---------------------------------------------------------------------------- "
-   
+print("---------------------------------------------------------------------------- ")
+
 
 score_dict = {}
 
