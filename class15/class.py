@@ -29,7 +29,7 @@ say_hello_with_default()  # 使用預設值
 say_hello_with_default("Andre")  # 使用新的值
 
 
-# 區域變數與全域變數 - immagene 家裡and學校的toy
+# 區域變數與全域變數 - imagine 家裡and學校的toy
 # 區域變數is you personal toy, only you can play with it
 # 全域變數is everyone's toy, everyone can play with it
 toy_name = "toy bear"  # 全域變數 , everyone can play with it
